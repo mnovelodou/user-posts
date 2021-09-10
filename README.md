@@ -13,3 +13,10 @@ run `go test ./...`
 
 ## To Build
 run `go build`
+
+## To Run
+1. Build
+2. Run `./user_posts`
+3. Test using curl, postman or web browser using:
+
+`GET http://localhost:8080/v1/user-posts/1`
